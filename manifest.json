@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Hulubricant",
+	"version": "1.0",
+
+	"description": "Hides Hulu thumbnails and next episode summaries to prevent spoilers",
+
+	"icons": {
+		"48": "icons/hulubricant-48.png",
+		"96": "icons/hulubricant-96.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.hulu.com/*"],
+			"js": ["remove-spoilers.js"]
+		}
+	]
+
+}
