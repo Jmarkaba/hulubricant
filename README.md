@@ -11,3 +11,7 @@ features just disable the extension with FireFox.
 
 The extension makes use of InsertionQuery. See https://github.com/naugtur/insertionQuery for
 more information.
+
+## Packaging
+
+Packaged using ```zip -r -FS ../hulubricant.zip * --exclude '*.git*'```
